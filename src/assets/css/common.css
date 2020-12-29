@@ -1,0 +1,335 @@
+:root {
+  --primary: #19ce60;
+  --black: #000000;
+  --grey: #dae1e6;
+  --lightgrey: #f7f9fa;
+  --blue: #3565c9;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+.a-none > a:visited {
+  color: var(--black);
+}
+.a-green > a:visited {
+  color: var(--primary);
+}
+
+section {
+  display: block;
+  min-width: 960px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.logo-default {
+  width: 240px;
+}
+.top-search {
+  display: flex;
+  padding: 12px 0 !important;
+  max-width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.form-center {
+  width: 100%;
+  height: 180px;
+
+  background-color: antiquewhite;
+  position: relative;
+}
+
+.top-left {
+  /* width: 100%; */
+  padding-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.button-s-grey {
+  margin-left: 6px;
+  /* border: 1px solid black; */
+  padding: 4px;
+  color: slategrey;
+}
+h3 {
+  font-size: 14px;
+}
+h4 {
+  font-size: 12px;
+}
+.inputbox {
+  background-color: white;
+  position: relative;
+  width: 582px;
+  height: 52px;
+  border: 2px solid var(--primary);
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+.search-input {
+  margin-top: 9px;
+}
+.btn-submit {
+  /* position: absolute; */
+  /* top: 0;
+  right: 0;
+  bottom: 0;
+  width: 56px; */
+  height: 52px;
+  width: 52px;
+  background-color: var(--primary);
+  -webkit-border-radius: 0 2px 2px 0;
+  border-radius: 0 2px 2px 0;
+  cursor: pointer;
+}
+.margin10 {
+  margin: 10px 0;
+}
+.margin-r {
+  margin-right: 10px;
+}
+.group-nav {
+  overflow: hidden;
+  position: relative;
+  padding: 11px 0;
+}
+.nav-bg {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
+.group-nav-right {
+  float: right;
+}
+.list-nav {
+  float: left;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000;
+}
+.nav-item {
+  float: left;
+  margin-right: 20px;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+.primary {
+  color: ar(--primary);
+}
+.content-left {
+  float: left;
+  width: 750px;
+}
+.content-right {
+  float: right;
+  width: 350px;
+}
+.content {
+  height: 200px;
+  background-color: aliceblue;
+  margin-top: 10px;
+}
+.width100 {
+  width: 100%;
+}
+.newsheader {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 2px solid var(--grey);
+  color: var(--lightgrey);
+}
+.newsmiddle {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.newsheader h4 {
+  display: inherit;
+}
+.blue {
+  color: var(--blue);
+}
+.border {
+  font-weight: 800;
+}
+.newsheader a.black:visited,
+.newsmiddle a.black:visited {
+  color: var(--black);
+}
+.newsheader-right:first-child:visited {
+  color: var(--blue) !important;
+}
+.newsmiddle .v-icon:hover,
+.newsmiddle .v-icon:focus {
+  color: #19ce60;
+}
+.newslist {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+.newscard {
+  display: inline-block;
+}
+.slide ul {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #dae1e6;
+}
+.slide ul li {
+  display: inline-block;
+}
+#back {
+  position: absolute;
+  top: 250px;
+  left: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+#next {
+  position: absolute;
+  top: 250px;
+  left: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+.newscard {
+  text-align: center;
+  padding: 20px 0 !important;
+  border: 1px solid var(--grey);
+}

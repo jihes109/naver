@@ -15,6 +15,7 @@
       </div>
     </section>
     <div class="nav-bg">
+      <div class="nav-line"></div>
       <section class="group-nav ">
         <div class="group-nav-left">
           <ul class="list-nav">
@@ -78,6 +79,7 @@
           >
         </div>
       </section>
+      <div class="nav-line"></div>
     </div>
     <section class="content ">
       <div class="content-left">
@@ -98,10 +100,10 @@
             >
           </div>
           <div class="newsheader-right">
-            <a href="" class="margin-r blue border"><h4>네이버뉴스</h4></a>
-            <a href="" class="margin-r black border"><h4>연예</h4></a>
-            <a href="" class="margin-r black border "><h4>스포츠</h4></a>
-            <a href="" class="black border "><h4>경제</h4></a>
+            <a href="" class="margin-r blue border none"><h4>네이버뉴스</h4></a>
+            <a href="" class="margin-r black border none"><h4>연예</h4></a>
+            <a href="" class="margin-r black border none "><h4>스포츠</h4></a>
+            <a href="" class="black border none"><h4>경제</h4></a>
           </div>
         </div>
         <div class="newsmiddle">
@@ -117,95 +119,215 @@
             </a>
           </div>
           <div class="newsheader-right">
-            <a href="" class="margin-r  border"
+            <a href="" class="margin-r  border none"
               ><v-icon>mdi-format-list-bulleted</v-icon></a
             >
-            <a href="" class="margin-r border"
+            <a href="" class="margin-r border none"
               ><v-icon>mdi-view-module</v-icon></a
             >
-            <a href="" class=" border"><v-icon>mdi-view-module</v-icon></a>
+            <a href="" class=" border none"><v-icon>mdi-view-module</v-icon></a>
           </div>
         </div>
         <div class="newslist">
           <div class="newslist-row">
-            <v-col cols="12" sm="2" class="card">
-              <a href="" v-on:mouseover="newscardchange">뉴스</a>
-            </v-col>
-            <v-col cols="12" sm="2" class="card" id="id-2">
-              <a href="">뉴스</a>
-            </v-col>
-            <v-col cols="12" sm="2" class="card">
-              <a href="">뉴스</a>
-            </v-col>
-            <v-col cols="12" sm="2" class="card">
-              <a href="">뉴스</a>
-            </v-col>
-            <v-col cols="12" sm="2" class="card">
-              <a href="">뉴스</a>
-            </v-col>
-            <v-col cols="12" sm="2" class="card">
-              <a href="">뉴스</a>
-            </v-col>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
           </div>
           <div class="newslist-row">
-            <v-col cols="12" sm="2" class="card">
-              <a href="">뉴스</a>
-            </v-col>
-            <v-col cols="12" sm="2" class="card">
-              <a href="">뉴스</a>
-            </v-col>
-            <v-col cols="12" sm="2" class="card">
-              <a href="">뉴스</a>
-            </v-col>
-            <v-col cols="12" sm="2" class="card">
-              <a href="">뉴스</a>
-            </v-col>
-            <v-col cols="12" sm="2" class="card">
-              <a href="">뉴스</a>
-            </v-col>
-            <v-col cols="12" sm="2" class="card">
-              <a href="">뉴스</a>
-            </v-col>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
           </div>
           <div class="newslist-row">
-            <v-col cols="12" sm="2" class="card">
-              <a href="">뉴스</a>
-            </v-col>
-            <v-col cols="12" sm="2" class="card">
-              <a href="">뉴스</a>
-            </v-col>
-            <v-col cols="12" sm="2" class="card">
-              <a href="">뉴스</a>
-            </v-col>
-            <v-col cols="12" sm="2" class="card">
-              <a href="">뉴스</a>
-            </v-col>
-            <v-col cols="12" sm="2" class="card">
-              <a href="">뉴스</a>
-            </v-col>
-            <v-col cols="12" sm="2" class="card">
-              <a href="">뉴스</a>
-            </v-col>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
           </div>
           <div class="newslist-row">
-            <v-col cols="12" sm="2" class="card">
-              <a href="">뉴스</a>
-            </v-col>
-            <v-col cols="12" sm="2" class="card">
-              <a href="">뉴스</a>
-            </v-col>
-            <v-col cols="12" sm="2" class="card">
-              <a href="">뉴스</a>
-            </v-col>
-            <v-col cols="12" sm="2" class="card">
-              <a href="">뉴스</a>
-            </v-col>
-            <v-col cols="12" sm="2" class="card">
-              <a href="">뉴스</a>
-            </v-col>
-            <v-col cols="12" sm="2" class="card">
-              <a href="">뉴스</a>
-            </v-col>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
+            <a href="" class="none">
+              <v-col cols="12" sm="2" class="card" id="id-2"
+                ><img
+                  class="img-news"
+                  src="@/assets/img-news-logo.png"
+                  alt=""
+                /> </v-col
+            ></a>
           </div>
         </div>
         <div class="themecast">
@@ -243,7 +365,7 @@
             </div>
             <div class="themecastcontents margin10">
               <div class="list-top">
-                <a href="" class="themerow margin10">
+                <a href="" class="themerow margin10 none">
                   <div class="left margin-r">
                     <div class="wrap">
                       <img
@@ -267,7 +389,7 @@
                     <span><h4 class="grey">더패치 / 5일전</h4></span>
                   </div>
                 </a>
-                <a href="" class="themerow margin10">
+                <a href="" class="themerow margin10 none">
                   <div class="left margin-r">
                     <div class="wrap">
                       <img
@@ -291,7 +413,7 @@
                     <span><h4 class="grey">더패치 / 5일전</h4></span>
                   </div>
                 </a>
-                <a href="" class="themerow margin10">
+                <a href="" class="themerow margin10 none">
                   <div class="left margin-r">
                     <div class="wrap">
                       <img
@@ -315,7 +437,7 @@
                     <span><h4 class="grey">더패치 / 5일전</h4></span>
                   </div>
                 </a>
-                <a href="" class="themerow margin10">
+                <a href="" class="themerow margin10 none">
                   <div class="left margin-r">
                     <div class="wrap">
                       <img
@@ -342,7 +464,7 @@
               </div>
               <div class="line"></div>
               <div class="list-bottom">
-                <a href="" class="themerow-b margin-r">
+                <a href="" class="themerow-b margin-r none">
                   <div class="wrap">
                     <img
                       src="@/assets/img-theme.png"
@@ -353,7 +475,7 @@
                   <strong>지혜의 네이버</strong>
                   <span><h4 class="grey">더패치 / 5일전</h4></span>
                 </a>
-                <a href="" class="themerow-b margin-r">
+                <a href="" class="themerow-b margin-r none">
                   <div class="wrap">
                     <img
                       src="@/assets/img-theme.png"
@@ -364,7 +486,7 @@
                   <strong>지혜의 네이버 페이지 따라만들기..</strong>
                   <span><h4 class="grey">더패치 / 5일전</h4></span>
                 </a>
-                <a href="" class="themerow-b">
+                <a href="" class="themerow-b none">
                   <div class="wrap">
                     <img
                       src="@/assets/img-theme.png"
@@ -385,14 +507,18 @@
       <div class="content-right">
         <div class="loginbox margin10">
           <h4 class="grey">네이버를 더 안전하고 편리하게 이용하세요</h4>
-          <a href="" class="btn-login margin10 border">NAVER LOGIN</a>
+          <a href="" class="btn-login margin10 border none">NAVER LOGIN</a>
           <div class="login-bottom">
             <div class="left">
-              <a href="" class="margin-r"> <h4>아이디</h4></a>
+              <a href="" class="margin-r">
+                <h4><v-icon x-small>mdi-lock</v-icon>아이디</h4></a
+              >
               <a href=""> <h4>비밀번호 찾기</h4></a>
             </div>
-            <div class="right">
-              <a href=""> <h4>회원가입</h4></a>
+            <div class="left">
+              <a href="" class="">
+                <h4><v-icon x-small>mdi-account-outline</v-icon>회원가입</h4></a
+              >
             </div>
           </div>
         </div>
@@ -413,9 +539,302 @@
             <a href="" class="margin-r blue border"
               ><v-icon small>mdi-chevron-left</v-icon></a
             >
-            <a href="" class="margin-r blue border"
+            <a href="" class=" blue border"
               ><v-icon small>mdi-chevron-right</v-icon></a
             >
+          </div>
+        </div>
+        <div class="imgbanner margin10">
+          <img
+            src="@/assets/img-sub-banner.png"
+            class="width100 border"
+            alt=""
+          />
+        </div>
+        <div class=" shoppingtab">
+          <div class="newsheader-left">
+            <a href="" class="margin-r black"
+              ><h3 class="border">
+                <v-icon color="var(--primary)">mdi-cart</v-icon>
+                트렌드쇼핑
+              </h3>
+            </a>
+          </div>
+          <div class="newsheader-right">
+            <ul class="list-nav ">
+              <li class="nav-item a-none">
+                <a href=""><h3 class="">상품</h3></a>
+              </li>
+              <li class="nav-item a-none">
+                <a href=""><h3 class="">쇼핑몰</h3></a>
+              </li>
+              <li class="nav-item a-none">
+                <a href=""><h3 class="">MEN</h3></a>
+              </li>
+            </ul>
+            <!-- <a href="" class="margin-r blue border"
+              ><v-icon small>mdi-chevron-left</v-icon></a
+            >
+            <a href="" class=" blue border"
+              ><v-icon small>mdi-chevron-right</v-icon></a
+            > -->
+          </div>
+        </div>
+        <div class="shopping">
+          <div class="shoppingheader ">
+            <div class="flex margin-b">
+              <a href="" class="border"> <h4>G마켓</h4></a>
+              <span class="ls"></span>
+              <a href=""> <h4>옥션</h4></a>
+              <span class="ls"></span>
+              <a href=""> <h4>11번가</h4></a>
+              <span class="ls"></span>
+              <a href=""> <h4>위메프</h4></a>
+              <span class="ls"></span>
+              <a href=""> <h4>이마트몰</h4></a>
+              <span class="ls"></span>
+              <a href=""> <h4>올리브영</h4></a>
+            </div>
+            <div class="flex">
+              <a href=""> <h4>티몬</h4></a>
+              <span class="ls"></span>
+              <a href=""> <h4>홈플러스</h4></a>
+              <span class="ls"></span>
+              <a href=""> <h4>GS샵</h4></a>
+              <span class="ls"></span>
+              <a href=""> <h4>롯데i몰</h4></a>
+              <span class="ls"></span>
+              <a href=""> <h4>신세계몰</h4></a>
+              <span class="ls"></span>
+              <a href=""> <h4>CJmall</h4></a>
+            </div>
+          </div>
+          <div class="shoppingbody">
+            <div class="shop-control margin10">
+              <div class="margin-r">
+                <em>
+                  <span class="border">1</span>
+                </em>
+                <span>/25</span>
+              </div>
+              <div class="newsheader-right">
+                <a href="" class="margin-r none"
+                  ><v-icon small>mdi-chevron-left</v-icon></a
+                >
+                <a href="" class=" none"
+                  ><v-icon small>mdi-chevron-right</v-icon></a
+                >
+              </div>
+            </div>
+            <div class="list-bottom">
+              <a href="" class="themerow-b margin-r none center">
+                <div class="wrap ">
+                  <img
+                    src="@/assets/img-theme.png"
+                    class="shopping-img"
+                    alt=""
+                  />
+                </div>
+                <strong><h4>지혜의 네이버</h4></strong>
+                <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
+              </a>
+              <a href="" class="themerow-b margin-r none center">
+                <div class="wrap">
+                  <img
+                    src="@/assets/img-theme.png"
+                    class="shopping-img"
+                    alt=""
+                  />
+                </div>
+                <strong><h4>지혜의 네이버</h4></strong>
+                <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
+              </a>
+              <a href="" class="themerow-b none center">
+                <div class="wrap">
+                  <img
+                    src="@/assets/img-theme.png"
+                    class="shopping-img"
+                    alt=""
+                  />
+                </div>
+                <strong><h4>지혜의 네이버</h4></strong>
+                <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
+              </a>
+            </div>
+            <div class="list-bottom margin10">
+              <a href="" class="themerow-b margin-r none center">
+                <div class="wrap ">
+                  <img
+                    src="@/assets/img-theme.png"
+                    class="shopping-img"
+                    alt=""
+                  />
+                </div>
+                <strong><h4>지혜의 네이버</h4></strong>
+                <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
+              </a>
+              <a href="" class="themerow-b margin-r none center">
+                <div class="wrap">
+                  <img
+                    src="@/assets/img-theme.png"
+                    class="shopping-img"
+                    alt=""
+                  />
+                </div>
+                <strong><h4>지혜의 네이버</h4></strong>
+                <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
+              </a>
+              <a href="" class="themerow-b none center">
+                <div class="wrap">
+                  <img
+                    src="@/assets/img-theme.png"
+                    class="shopping-img"
+                    alt=""
+                  />
+                </div>
+                <strong><h4>지혜의 네이버</h4></strong>
+                <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
+              </a>
+            </div>
+            <div class="list-bottom">
+              <a href="" class="themerow-b margin-r none center">
+                <div class="wrap ">
+                  <img
+                    src="@/assets/img-theme.png"
+                    class="shopping-img"
+                    alt=""
+                  />
+                </div>
+                <strong><h4>지혜의 네이버</h4></strong>
+                <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
+              </a>
+              <a href="" class="themerow-b margin-r none center">
+                <div class="wrap">
+                  <img
+                    src="@/assets/img-theme.png"
+                    class="shopping-img"
+                    alt=""
+                  />
+                </div>
+                <strong><h4>지혜의 네이버</h4></strong>
+                <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
+              </a>
+              <a href="" class="themerow-b none center">
+                <div class="wrap">
+                  <img
+                    src="@/assets/img-theme.png"
+                    class="shopping-img"
+                    alt=""
+                  />
+                </div>
+                <strong><h4>지혜의 네이버</h4></strong>
+                <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
+              </a>
+            </div>
+            <div class="shop-control-bottom margin10">
+              <a href="" class="margin-r none"
+                ><v-icon small>mdi-chevron-left</v-icon></a
+              >
+              <div class="margin-r">
+                <em>
+                  <span class="border">1</span>
+                </em>
+                <span>/25</span>
+              </div>
+
+              <a href="" class=" none"
+                ><v-icon small>mdi-chevron-right</v-icon></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="shoppingnews">
+          <div class="shoppingheader ">
+            <div class="flex margin-b">
+              <a href="" class="border"> <h4>G마켓</h4></a>
+              <span class="ls"></span>
+              <a href=""> <h4>옥션</h4></a>
+              <span class="ls"></span>
+              <a href=""> <h4>11번가</h4></a>
+              <span class="ls"></span>
+              <a href=""> <h4>위메프</h4></a>
+              <span class="ls"></span>
+              <a href=""> <h4>이마트몰</h4></a>
+              <span class="ls"></span>
+              <a href=""> <h4>올리브영</h4></a>
+            </div>
+            <div class="flex">
+              <a href=""> <h4>티몬</h4></a>
+              <span class="ls"></span>
+              <a href=""> <h4>홈플러스</h4></a>
+              <span class="ls"></span>
+              <a href=""> <h4>GS샵</h4></a>
+              <span class="ls"></span>
+              <a href=""> <h4>롯데i몰</h4></a>
+              <span class="ls"></span>
+              <a href=""> <h4>신세계몰</h4></a>
+              <span class="ls"></span>
+              <a href=""> <h4>CJmall</h4></a>
+            </div>
+          </div>
+          <div class="shoppingbody">
+            <div class="shop-news-control ">
+              <h3>반갑다 쇼핑뉴스</h3>
+              <div class="shop-control">
+                <div class="margin-r">
+                  <em>
+                    <span class="border">1</span>
+                  </em>
+                  <span>/25</span>
+                </div>
+                <div class="newsheader-right">
+                  <a href="" class="margin-r none"
+                    ><v-icon small>mdi-chevron-left</v-icon></a
+                  >
+                  <a href="" class=" none"
+                    ><v-icon small>mdi-chevron-right</v-icon></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="list-bottom-news">
+              <a href="" class=" flex margin20">
+                <strong class="margin-r"><h4>지혜의 네이버</h4></strong>
+                <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
+              </a>
+              <a href="" class=" flex margin20">
+                <strong class="margin-r"><h4>지혜의 네이버</h4></strong>
+                <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
+              </a>
+              <a href="" class=" flex margin20">
+                <strong class="margin-r"><h4>지혜의 네이버</h4></strong>
+                <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
+              </a>
+              <a href="" class=" flex margin20">
+                <strong class="margin-r"><h4>지혜의 네이버</h4></strong>
+                <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
+              </a>
+              <a href="" class=" flex margin20">
+                <strong class="margin-r"><h4>지혜의 네이버</h4></strong>
+                <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
+              </a>
+            </div>
+
+            <div class="shop-control-bottom margin10">
+              <a href="" class="margin-r none"
+                ><v-icon small>mdi-chevron-left</v-icon></a
+              >
+              <div class="margin-r">
+                <em>
+                  <span class="border">1</span>
+                </em>
+                <span>/25</span>
+              </div>
+
+              <a href="" class=" none"
+                ><v-icon small>mdi-chevron-right</v-icon></a
+              >
+            </div>
           </div>
         </div>
       </div>

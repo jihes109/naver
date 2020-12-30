@@ -152,7 +152,7 @@ a.none:hover {
 }
 
 section {
-  display: block;
+  display: flow-root;
   min-width: 1130px;
   max-width: 1130px;
   margin: 0 auto;
@@ -232,6 +232,9 @@ h4 {
 .margin-b {
   margin-bottom: 10px;
 }
+.marginb-60 {
+  margin-bottom: 60px;
+}
 .group-nav {
   overflow: hidden;
   position: relative;
@@ -239,6 +242,20 @@ h4 {
 }
 .nav-bg {
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
+.footer-bg {
+  text-align: center;
+  background-color: var(--lightgrey);
+}
+.footer-top {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.fooger-right {
+  margin-top: 8px;
+  width: 100%;
+  text-align: left;
 }
 .group-nav-right {
   float: right;
@@ -301,7 +318,8 @@ ul {
   background-color: var(--lightgrey);
 }
 .newsmiddle,
-.themecastheader {
+.themecastheader,
+.footerheader {
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
@@ -347,8 +365,11 @@ a:visited {
   margin: 0 auto;
 }
 .newslist-row > .card:hover,
-#id-2:hover {
+#id-2:hover,
+.btn-arrow-left:hover,
+.btn-arrow-right:hover {
   background-color: var(--lightgrey);
+  border-bottom: none;
 }
 .themecast-left,
 .themecast-right,
@@ -423,6 +444,7 @@ a:visited {
 }
 .themecastlist-row {
   margin-bottom: 20px;
+  position: relative;
 }
 .themecastcontents {
   width: 100%;
@@ -513,4 +535,35 @@ span.ls {
   margin-right: 8px;
   vertical-align: 2px;
   margin-top: 3px;
+}
+.btn-arrow-left,
+.btn-arrow-right {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0px 1px 2px 2px #00000011;
+  display: block;
+  text-align: center;
+  padding-top: 8px;
+}
+.newslist-position > .btn-arrow-left {
+  position: absolute;
+  margin-top: -153px;
+  margin-left: -20px;
+}
+.newslist-position > .btn-arrow-right {
+  position: absolute;
+  margin-top: -153px;
+  margin-left: 729px;
+}
+.theme-position > .btn-arrow-left {
+  position: absolute;
+  margin-top: -69px;
+  margin-left: -20px;
+}
+.theme-position > .btn-arrow-right {
+  position: absolute;
+  margin-top: -69px;
+  margin-left: 729px;
 }

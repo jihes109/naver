@@ -128,207 +128,220 @@
             <a href="" class=" border none"><v-icon>mdi-view-module</v-icon></a>
           </div>
         </div>
-        <div class="newslist">
-          <div class="newslist-row">
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
+        <div class="newslist-position">
+          <div class="newslist">
+            <div class="newslist-row">
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+            </div>
+            <div class="newslist-row">
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+            </div>
+            <div class="newslist-row">
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+            </div>
+            <div class="newslist-row">
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+              <a href="" class="none">
+                <v-col cols="12" sm="2" class="card" id="id-2"
+                  ><img
+                    class="img-news"
+                    src="@/assets/img-news-logo.png"
+                    alt=""
+                  /> </v-col
+              ></a>
+            </div>
           </div>
-          <div class="newslist-row">
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
-          </div>
-          <div class="newslist-row">
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
-          </div>
-          <div class="newslist-row">
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
-            <a href="" class="none">
-              <v-col cols="12" sm="2" class="card" id="id-2"
-                ><img
-                  class="img-news"
-                  src="@/assets/img-news-logo.png"
-                  alt=""
-                /> </v-col
-            ></a>
-          </div>
+          <a href="" class="btn-arrow-left">
+            <div>
+              <v-icon> mdi-chevron-left</v-icon>
+            </div>
+          </a>
+
+          <a href="" class="btn-arrow-right">
+            <div>
+              <v-icon> mdi-chevron-right</v-icon>
+            </div>
+          </a>
         </div>
         <div class="themecast">
           <div class="themecastheader">
@@ -343,25 +356,38 @@
           </div>
 
           <div class="themecastslist">
-            <div class="themecastlist-row">
-              <v-col cols="12" sm="2" class="card">
-                <a href="" v-on:mouseover="newscardchange">뉴스</a>
-              </v-col>
-              <v-col cols="12" sm="2" class="card" id="id-2">
-                <a href="">엔터</a>
-              </v-col>
-              <v-col cols="12" sm="2" class="card">
-                <a href="">스포츠</a>
-              </v-col>
-              <v-col cols="12" sm="2" class="card">
-                <a href="">푸드</a>
-              </v-col>
-              <v-col cols="12" sm="2" class="card">
-                <a href="">패션뷰티</a>
-              </v-col>
-              <v-col cols="12" sm="2" class="card">
-                <a href="">웹툰</a>
-              </v-col>
+            <div class="theme-position">
+              <div class="themecastlist-row">
+                <v-col cols="12" sm="2" class="card">
+                  <a href="" v-on:mouseover="newscardchange">뉴스</a>
+                </v-col>
+                <v-col cols="12" sm="2" class="card" id="id-2">
+                  <a href="">엔터</a>
+                </v-col>
+                <v-col cols="12" sm="2" class="card">
+                  <a href="">스포츠</a>
+                </v-col>
+                <v-col cols="12" sm="2" class="card">
+                  <a href="">푸드</a>
+                </v-col>
+                <v-col cols="12" sm="2" class="card">
+                  <a href="">패션뷰티</a>
+                </v-col>
+                <v-col cols="12" sm="2" class="card">
+                  <a href="">웹툰</a>
+                </v-col>
+              </div>
+              <a href="" class="btn-arrow-left">
+                <div>
+                  <v-icon> mdi-chevron-left</v-icon>
+                </div>
+              </a>
+
+              <a href="" class="btn-arrow-right">
+                <div>
+                  <v-icon> mdi-chevron-right</v-icon>
+                </div>
+              </a>
             </div>
             <div class="themecastcontents margin10">
               <div class="list-top">
@@ -696,41 +722,6 @@
                 <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
               </a>
             </div>
-            <div class="list-bottom">
-              <a href="" class="themerow-b margin-r none center">
-                <div class="wrap ">
-                  <img
-                    src="@/assets/img-theme.png"
-                    class="shopping-img"
-                    alt=""
-                  />
-                </div>
-                <strong><h4>지혜의 네이버</h4></strong>
-                <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
-              </a>
-              <a href="" class="themerow-b margin-r none center">
-                <div class="wrap">
-                  <img
-                    src="@/assets/img-theme.png"
-                    class="shopping-img"
-                    alt=""
-                  />
-                </div>
-                <strong><h4>지혜의 네이버</h4></strong>
-                <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
-              </a>
-              <a href="" class="themerow-b none center">
-                <div class="wrap">
-                  <img
-                    src="@/assets/img-theme.png"
-                    class="shopping-img"
-                    alt=""
-                  />
-                </div>
-                <strong><h4>지혜의 네이버</h4></strong>
-                <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
-              </a>
-            </div>
             <div class="shop-control-bottom margin10">
               <a href="" class="margin-r none"
                 ><v-icon small>mdi-chevron-left</v-icon></a
@@ -839,6 +830,117 @@
         </div>
       </div>
     </section>
+    <div class="footer-bg">
+      <div class="nav-line"></div>
+      <section class="group-footer ">
+        <div class="footer-top">
+          <a href="" class="themerow  none margin-r">
+            <div class="left margin-r">
+              <div class="wrap">
+                <img src="@/assets/img-theme.png" class="theme-img" alt="" />
+              </div>
+            </div>
+            <div class="right fooger-right">
+              <em class="primary ">애플시나몬</em>
+              <strong>10주년 이벤트</strong>
+              <h4>
+                애플시나몬 먹고 네이버 페이 이벤트 참여하세요
+              </h4>
+            </div>
+          </a>
+          <a href="" class="themerow  none margin-r">
+            <div class="left margin-r">
+              <div class="wrap">
+                <img src="@/assets/img-theme.png" class="theme-img" alt="" />
+              </div>
+            </div>
+            <div class="right fooger-right">
+              <em class="primary ">애플시나몬</em>
+              <strong>10주년 이벤트</strong>
+              <h4>
+                애플시나몬 먹고 네이버 페이 이벤트 참여하세요
+              </h4>
+            </div>
+          </a>
+
+          <a href="" class="themerow  none">
+            <div class="left margin-r">
+              <div class="wrap">
+                <img src="@/assets/img-theme.png" class="theme-img" alt="" />
+              </div>
+            </div>
+            <div class="right fooger-right">
+              <em class="primary ">애플시나몬</em>
+              <strong>10주년 이벤트</strong>
+              <h4>
+                애플시나몬 먹고 네이버 페이 이벤트 참여하세요
+              </h4>
+            </div>
+          </a>
+        </div>
+        <div class="nav-line"></div>
+        <div class="themecastheader ">
+          <div class="themecast-left">
+            <a href="" class=" black border"><h4>공지사항</h4></a>
+          </div>
+          <div class="themecast-right">
+            <a href="" class=" blue border none"
+              ><h4>서비스 전체보기 <v-icon>mdi-chevron-right</v-icon></h4></a
+            >
+          </div>
+        </div>
+        <div class="nav-line"></div>
+        <div class="footer-info">
+          <div class="footerheader ">
+            <div class="fotter-info-left">
+              <div class="flex ">
+                <a href="" class=" black border margin-r"><h4>Creators</h4></a>
+                <a href="" class=" black  margin-r"><h4>디자이너</h4></a>
+                <a href="" class=" black "><h4>퍼블리셔</h4></a>
+              </div>
+              <div class="flex margin20">
+                <a href="" class=" black border margin-r"><h4>Creators</h4></a>
+                <a href="" class=" black  margin-r"><h4>디자이너</h4></a>
+                <a href="" class=" black "><h4>퍼블리셔</h4></a>
+              </div>
+              <div class="flex">
+                <a href="" class=" black border margin-r"><h4>Creators</h4></a>
+                <a href="" class=" black  margin-r"><h4>디자이너</h4></a>
+                <a href="" class=" black "><h4>퍼블리셔</h4></a>
+              </div>
+            </div>
+
+            <div class="themecast-right">
+              <a href="" class=" blue border none"><h3>웨일브라우저</h3></a>
+            </div>
+          </div>
+        </div>
+        <div class="nav-line"></div>
+        <div class="themecastheader ">
+          <div class="themecast-left marginb-60">
+            <a href="" class=" black border margin-r"><h4>회사소개</h4></a>
+            <span class="ls"></span>
+            <a href="" class=" black border margin-r"><h4>인재채용</h4></a>
+            <span class="ls"></span>
+            <a href="" class=" black border margin-r"><h4>제휴제안</h4></a>
+            <span class="ls"></span>
+            <a href="" class=" black border margin-r"><h4>이용약관</h4></a>
+            <span class="ls"></span>
+            <a href="" class=" black border margin-r"
+              ><h4>개인정보처리방침</h4></a
+            >
+            <span class="ls"></span>
+            <a href="" class=" black border margin-r"
+              ><h4>청소년보호정책</h4></a
+            >
+            <span class="ls"></span>
+            <a href="" class=" black border"><h4>지혜</h4></a>
+          </div>
+          <div class="themecast-right"></div>
+        </div>
+      </section>
+      <div class="nav-line"></div>
+    </div>
   </body>
 </template>
 

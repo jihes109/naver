@@ -1,15 +1,29 @@
 <template>
-  <body>
+  <div class="body">
     <section class="form-center ">
       <div class="top-left ">
-        <button class="button-s-grey "><h4>네이버를 시작페이지로</h4></button>
-        <button class="button-s-grey"><h4>쥬니어네이버</h4></button>
-        <button class="button-s-grey"><h4>해피빈</h4></button>
+        <ul class="list-nav ">
+          <li class="nav-item ">
+            <a href=""><h4>네이버를 시작페이지로</h4></a>
+          </li>
+          <li class="nav-item a-none">
+            <a href=""><h4>쥬니어네이버</h4></a>
+          </li>
+          <li class="nav-item a-none">
+            <a href=""><h4>해피빈</h4></a>
+          </li>
+        </ul>
       </div>
       <div class="top-search">
-        <img src="@/assets/logo-naver.png" class="logo-default" alt="" />
+        <img src="@/assets/logo-naver.png" class="logo-default" alt="logo" />
         <form class="search-input">
-          <input type="text" class="inputbox" id="searchkey" name="searchkey" />
+          <input
+            type="text"
+            class="inputbox"
+            id="searchkey"
+            name="searchkey"
+            title="검색"
+          />
           <button class="btn-submit"><v-icon>mdi-magnify</v-icon></button>
         </form>
       </div>
@@ -20,52 +34,52 @@
         <div class="group-nav-left">
           <ul class="list-nav">
             <li class="nav-item a-green">
-              <a href=""><h3 class="primary">메일</h3></a>
+              <a href="" class="primary border">메일</a>
             </li>
             <li class="nav-item a-green">
-              <a href=""><h3 class="primary">카페</h3></a>
+              <a href="" class="primary border">카페</a>
             </li>
             <li class="nav-item a-green">
-              <a href=""><h3 class="primary">블로그</h3></a>
+              <a href="" class="primary border">블로그</a>
             </li>
             <li class="nav-item a-green">
-              <a href=""><h3 class="primary">지식IN</h3></a>
+              <a href="" class="primary border">지식IN</a>
             </li>
             <li class="nav-item a-green">
-              <a href=""><h3 class="primary">쇼핑</h3></a>
+              <a href="" class="primary border">쇼핑</a>
             </li>
             <li class="nav-item a-green">
-              <a href=""><h3 class="primary">PAY</h3></a>
+              <a href="" class="primary border">PAY</a>
             </li>
             <li class="nav-item a-green">
-              <a href=""><h3 class="primary">TV</h3></a>
+              <a href="" class="primary border">TV</a>
             </li>
             <li class="nav-item a-none">
-              <a href=""><h3>사전</h3></a>
+              <a href="" class="border">사전</a>
             </li>
             <li class="nav-item a-none">
-              <a href=""><h3>뉴스</h3></a>
+              <a href="" class="border">뉴스</a>
             </li>
             <li class="nav-item a-none">
-              <a href=""><h3>부동산</h3></a>
+              <a href="" class="border">부동산</a>
             </li>
             <li class="nav-item a-none">
-              <a href=""><h3>지도</h3></a>
+              <a href="" class="border">지도</a>
             </li>
             <li class="nav-item a-none">
-              <a href=""><h3>영화</h3></a>
+              <a href="" class="border">영화</a>
             </li>
             <li class="nav-item a-none">
-              <a href=""><h3>VIBE</h3></a>
+              <a href="" class="border">VIBE</a>
             </li>
             <li class="nav-item a-none">
-              <a href=""><h3>책</h3></a>
+              <a href="" class="border">책</a>
             </li>
             <li class="nav-item a-none">
-              <a href=""><h3>웹툰</h3></a>
+              <a href="" class="border">웹툰</a>
             </li>
             <li class="nav-item a-none">
-              <a href=""
+              <a href="" class=" a-line"
                 ><h3>더보기 <v-icon>mdi-menu-down</v-icon></h3>
               </a>
             </li>
@@ -92,8 +106,8 @@
         </div>
         <div class="newsheader ">
           <div class="newsheader-left">
-            <a href="" class="margin-r black">연합뉴스 </a>
-            <a href="" class=" black"
+            <a href="" class="margin-r">연합뉴스 </a>
+            <a href="" class=" a-line"
               ><h4>
                 사흘 만에 또 1천명대…영국발 변이 바이러스까지 엎친데 덮친격
               </h4></a
@@ -536,13 +550,13 @@
           <a href="" class="btn-login margin10 border none">NAVER LOGIN</a>
           <div class="login-bottom">
             <div class="left">
-              <a href="" class="margin-r">
+              <a href="" class="margin-r  a-line">
                 <h4><v-icon x-small>mdi-lock</v-icon>아이디</h4></a
               >
-              <a href=""> <h4>비밀번호 찾기</h4></a>
+              <a href="" class=" a-line"> <h4>비밀번호 찾기</h4></a>
             </div>
             <div class="left">
-              <a href="" class="">
+              <a href="" class=" a-line">
                 <h4><v-icon x-small>mdi-account-outline</v-icon>회원가입</h4></a
               >
             </div>
@@ -609,30 +623,30 @@
         <div class="shopping">
           <div class="shoppingheader ">
             <div class="flex margin-b">
-              <a href="" class="border"> <h4>G마켓</h4></a>
+              <a href="" class="border  a-line"> <h4>G마켓</h4></a>
               <span class="ls"></span>
-              <a href=""> <h4>옥션</h4></a>
+              <a href="" class=" a-line"> <h4>옥션</h4></a>
               <span class="ls"></span>
-              <a href=""> <h4>11번가</h4></a>
+              <a href="" class=" a-line"> <h4>11번가</h4></a>
               <span class="ls"></span>
-              <a href=""> <h4>위메프</h4></a>
+              <a href="" class=" a-line"> <h4>위메프</h4></a>
               <span class="ls"></span>
-              <a href=""> <h4>이마트몰</h4></a>
+              <a href="" class=" a-line"> <h4>이마트몰</h4></a>
               <span class="ls"></span>
-              <a href=""> <h4>올리브영</h4></a>
+              <a href="" class=" a-line"> <h4>올리브영</h4></a>
             </div>
             <div class="flex">
-              <a href=""> <h4>티몬</h4></a>
+              <a href="" class=" a-line"> <h4>티몬</h4></a>
               <span class="ls"></span>
-              <a href=""> <h4>홈플러스</h4></a>
+              <a href="" class=" a-line"> <h4>홈플러스</h4></a>
               <span class="ls"></span>
-              <a href=""> <h4>GS샵</h4></a>
+              <a href="" class=" a-line"> <h4>GS샵</h4></a>
               <span class="ls"></span>
-              <a href=""> <h4>롯데i몰</h4></a>
+              <a href="" class=" a-line"> <h4>롯데i몰</h4></a>
               <span class="ls"></span>
-              <a href=""> <h4>신세계몰</h4></a>
+              <a href="" class=" a-line"> <h4>신세계몰</h4></a>
               <span class="ls"></span>
-              <a href=""> <h4>CJmall</h4></a>
+              <a href="" class=" a-line"> <h4>CJmall</h4></a>
             </div>
           </div>
           <div class="shoppingbody">
@@ -653,7 +667,7 @@
               </div>
             </div>
             <div class="list-bottom">
-              <a href="" class="themerow-b margin-r none center">
+              <a href="" class="themerow-b margin-r  center ">
                 <div class="wrap ">
                   <img
                     src="@/assets/img-theme.png"
@@ -664,7 +678,7 @@
                 <strong><h4>지혜의 네이버</h4></strong>
                 <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
               </a>
-              <a href="" class="themerow-b margin-r none center">
+              <a href="" class="themerow-b margin-r  center">
                 <div class="wrap">
                   <img
                     src="@/assets/img-theme.png"
@@ -675,7 +689,7 @@
                 <strong><h4>지혜의 네이버</h4></strong>
                 <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
               </a>
-              <a href="" class="themerow-b none center">
+              <a href="" class="themerow-b  center">
                 <div class="wrap">
                   <img
                     src="@/assets/img-theme.png"
@@ -789,23 +803,23 @@
               </div>
             </div>
             <div class="list-bottom-news">
-              <a href="" class=" flex margin20">
+              <a href="" class=" flex margin20 a-line">
                 <strong class="margin-r"><h4>지혜의 네이버</h4></strong>
                 <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
               </a>
-              <a href="" class=" flex margin20">
+              <a href="" class=" flex margin20 a-line">
                 <strong class="margin-r"><h4>지혜의 네이버</h4></strong>
                 <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
               </a>
-              <a href="" class=" flex margin20">
+              <a href="" class=" flex margin20 a-line">
                 <strong class="margin-r"><h4>지혜의 네이버</h4></strong>
                 <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
               </a>
-              <a href="" class=" flex margin20">
+              <a href="" class=" flex margin20 a-line">
                 <strong class="margin-r"><h4>지혜의 네이버</h4></strong>
                 <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
               </a>
-              <a href="" class=" flex margin20">
+              <a href="" class=" flex margin20 a-line">
                 <strong class="margin-r"><h4>지혜의 네이버</h4></strong>
                 <span><h4 class="grey">퍼블리싱 고민 끝!</h4></span>
               </a>
@@ -894,19 +908,19 @@
           <div class="footerheader ">
             <div class="fotter-info-left">
               <div class="flex ">
-                <a href="" class=" black border margin-r"><h4>Creators</h4></a>
-                <a href="" class=" black  margin-r"><h4>디자이너</h4></a>
-                <a href="" class=" black "><h4>퍼블리셔</h4></a>
+                <strong class="margin-r"><h4>Creators</h4></strong>
+                <a href="" class=" a-line  margin-r"><h4>디자이너</h4></a>
+                <a href="" class=" a-line "><h4>퍼블리셔</h4></a>
               </div>
               <div class="flex margin20">
-                <a href="" class=" black border margin-r"><h4>Creators</h4></a>
-                <a href="" class=" black  margin-r"><h4>디자이너</h4></a>
-                <a href="" class=" black "><h4>퍼블리셔</h4></a>
+                <strong class="margin-r"><h4>Creators</h4></strong>
+                <a href="" class=" a-line  margin-r"><h4>디자이너</h4></a>
+                <a href="" class=" a-line "><h4>퍼블리셔</h4></a>
               </div>
               <div class="flex">
-                <a href="" class=" black border margin-r"><h4>Creators</h4></a>
-                <a href="" class=" black  margin-r"><h4>디자이너</h4></a>
-                <a href="" class=" black "><h4>퍼블리셔</h4></a>
+                <strong class="margin-r"><h4>Creators</h4></strong>
+                <a href="" class=" a-line  margin-r"><h4>디자이너</h4></a>
+                <a href="" class=" a-line "><h4>퍼블리셔</h4></a>
               </div>
             </div>
 
@@ -941,7 +955,7 @@
       </section>
       <div class="nav-line"></div>
     </div>
-  </body>
+  </div>
 </template>
 
 <style scoped>

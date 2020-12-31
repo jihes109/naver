@@ -16,15 +16,20 @@
       </div>
       <div class="top-search">
         <img src="@/assets/logo-naver.png" class="logo-default" alt="logo" />
-        <form class="search-input">
-          <input
-            type="text"
-            class="inputbox"
-            id="searchkey"
-            name="searchkey"
-            title="검색"
-          />
-          <button class="btn-submit"><v-icon>mdi-magnify</v-icon></button>
+
+        <form>
+          <div class="search-input">
+            <input
+              type="search"
+              class="inputbox"
+              id="searchkey"
+              name="searchkey"
+              title="검색"
+            />
+            <button class="btn-submit" type="submit">
+              <v-icon>mdi-magnify</v-icon>
+            </button>
+          </div>
         </form>
       </div>
     </section>
@@ -101,292 +106,297 @@
             class="width100 border"
             alt="image"
             v-text="image설명"
+            title="설명"
           />
         </div>
-        <div class="newsheader ">
-          <dl class="newsheader-left">
-            <dt>
-              <a href="#none" class="margin-r"><strong>연합뉴스</strong> </a>
-            </dt>
-            <dd>
-              <a href="#none" class=" a-line" title="새 창열림">
-                사흘 만에 또 1천명대…영국발 변이 바이러스까지 엎친데 덮친격
+        <div class="newcontents">
+          <div class="newsheader ">
+            <dl class="newsheader-left">
+              <dt>
+                <a href="#none" class="margin-r"><strong>연합뉴스</strong> </a>
+              </dt>
+              <dd>
+                <a href="#none" class=" a-line" title="새 창열림">
+                  사흘 만에 또 1천명대…영국발 변이 바이러스까지 엎친데 덮친격
+                </a>
+              </dd>
+            </dl>
+            <div class="newsheader-right">
+              <a href="#none" class="margin-r blue border none"
+                ><h4>네이버뉴스</h4></a
+              >
+              <a href="#none" class="margin-r black border none"
+                ><h4>연예</h4></a
+              >
+              <a href="#none" class="margin-r black border none "
+                ><h4>스포츠</h4></a
+              >
+              <a href="#none" class="black border none"><h4>경제</h4></a>
+            </div>
+          </div>
+          <div class="newsmiddle">
+            <div class="newsmiddle-left">
+              <a href="#none" class="margin-r black"
+                ><v-icon>mdi-format-list-bulleted</v-icon>뉴스스탠드
               </a>
-            </dd>
-          </dl>
-          <div class="newsheader-right">
-            <a href="#none" class="margin-r blue border none"
-              ><h4>네이버뉴스</h4></a
-            >
-            <a href="#none" class="margin-r black border none"><h4>연예</h4></a>
-            <a href="#none" class="margin-r black border none "
-              ><h4>스포츠</h4></a
-            >
-            <a href="#none" class="black border none"><h4>경제</h4></a>
+              <a href="#none" class=" margin-r black">
+                구독한언론사
+              </a>
+              <a href="#none" class=" black border">
+                전체언론사
+              </a>
+            </div>
+            <div class="newsheader-right">
+              <a href="#none" class="margin-r  border none"
+                ><v-icon>mdi-format-list-bulleted</v-icon></a
+              >
+              <a href="#none" class="margin-r border none"
+                ><v-icon>mdi-view-module</v-icon></a
+              >
+              <a href="#none" class=" border none"
+                ><v-icon>mdi-view-module</v-icon></a
+              >
+            </div>
           </div>
-        </div>
-        <div class="newsmiddle">
-          <div class="newsmiddle-left">
-            <a href="#none" class="margin-r black"
-              ><v-icon>mdi-format-list-bulleted</v-icon>뉴스스탠드
+          <div class="newslist-position">
+            <div class="newslist">
+              <div class="newslist-row">
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+              </div>
+              <div class="newslist-row">
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+              </div>
+              <div class="newslist-row">
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+              </div>
+              <div class="newslist-row">
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+                <a href="#none" class="none">
+                  <v-col cols="12" sm="2" class="card" id="id-2"
+                    ><img
+                      class="img-news"
+                      src="@/assets/img-news-logo.png"
+                      alt="image"
+                      v-text="image설명"
+                    /> </v-col
+                ></a>
+              </div>
+            </div>
+            <a href="#none" class="btn-arrow-left">
+              <div>
+                <v-icon> mdi-chevron-left</v-icon>
+              </div>
             </a>
-            <a href="#none" class=" margin-r black">
-              구독한언론사
-            </a>
-            <a href="#none" class=" black border">
-              전체언론사
-            </a>
-          </div>
-          <div class="newsheader-right">
-            <a href="#none" class="margin-r  border none"
-              ><v-icon>mdi-format-list-bulleted</v-icon></a
-            >
-            <a href="#none" class="margin-r border none"
-              ><v-icon>mdi-view-module</v-icon></a
-            >
-            <a href="#none" class=" border none"
-              ><v-icon>mdi-view-module</v-icon></a
-            >
-          </div>
-        </div>
-        <div class="newslist-position">
-          <div class="newslist">
-            <div class="newslist-row">
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-            </div>
-            <div class="newslist-row">
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-            </div>
-            <div class="newslist-row">
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-            </div>
-            <div class="newslist-row">
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-              <a href="#none" class="none">
-                <v-col cols="12" sm="2" class="card" id="id-2"
-                  ><img
-                    class="img-news"
-                    src="@/assets/img-news-logo.png"
-                    alt="image"
-                    v-text="image설명"
-                  /> </v-col
-              ></a>
-            </div>
-          </div>
-          <a href="#none" class="btn-arrow-left">
-            <div>
-              <v-icon> mdi-chevron-left</v-icon>
-            </div>
-          </a>
 
-          <a href="#none" class="btn-arrow-right">
-            <div>
-              <v-icon> mdi-chevron-right</v-icon>
-            </div>
-          </a>
+            <a href="#none" class="btn-arrow-right">
+              <div>
+                <v-icon> mdi-chevron-right</v-icon>
+              </div>
+            </a>
+          </div>
         </div>
         <div class="themecast">
           <div class="themecastheader">

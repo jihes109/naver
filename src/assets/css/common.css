@@ -110,6 +110,7 @@ section {
 }
 body {
   line-height: 1;
+  /* font-size: 14px; */
 }
 ol,
 ul {
@@ -184,10 +185,10 @@ section {
   color: slategrey;
 }
 h3 {
-  font-size: 15px;
+  font-size: 16px;
 }
 h4 {
-  font-size: 12px;
+  font-size: 13px;
 }
 .inputbox {
   background-color: white;
@@ -257,9 +258,11 @@ h4 {
 .group-nav-right {
   float: right;
 }
+.group-nav-right > a {
+  font-size: 13px;
+}
 .list-nav {
   float: left;
-  font-size: 15px;
   line-height: 30px;
   color: #000;
 }
@@ -278,7 +281,9 @@ h4 {
   float: left;
   margin-right: 20px;
 }
-
+.nav-item:last-child {
+  margin-right: 0;
+}
 ol,
 ul {
   list-style: none;
@@ -523,7 +528,10 @@ a:visited {
   border: 1px solid black;
   border-radius: 12px;
 }
-
+dl,
+dt {
+  display: flex;
+}
 span.ls {
   background-color: var(--grey);
   display: inline-block;

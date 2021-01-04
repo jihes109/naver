@@ -2,15 +2,15 @@
   <div class="body">
     <section class="form-center ">
       <div class="top-left ">
-        <ul class="list-nav ">
+        <ul class="list-nav font-s ">
           <li class="nav-item ">
-            <a href="#none"><h4>네이버를 시작페이지로</h4></a>
+            <a href="#none">네이버를 시작페이지로</a>
           </li>
           <li class="nav-item a-none">
-            <a href="#none"><h4>쥬니어네이버</h4></a>
+            <a href="#none">쥬니어네이버</a>
           </li>
           <li class="nav-item a-none">
-            <a href="#none"><h4>해피빈</h4></a>
+            <a href="#none">해피빈</a>
           </li>
         </ul>
       </div>
@@ -84,8 +84,9 @@
               <a href="#none" class="border">웹툰</a>
             </li>
             <li class="nav-item a-none">
-              <a href="#none" class=" a-line"
-                ><h3>더보기 <v-icon>mdi-menu-down</v-icon></h3>
+              <a href="#none" class=" a-line">
+                <span class="test-span">더보기 </span>
+                <v-icon>mdi-menu-down</v-icon>
               </a>
             </li>
           </ul>
@@ -121,17 +122,11 @@
                 </a>
               </dd>
             </dl>
-            <div class="newsheader-right">
-              <a href="#none" class="margin-r blue border none"
-                ><h4>네이버뉴스</h4></a
-              >
-              <a href="#none" class="margin-r black border none"
-                ><h4>연예</h4></a
-              >
-              <a href="#none" class="margin-r black border none "
-                ><h4>스포츠</h4></a
-              >
-              <a href="#none" class="black border none"><h4>경제</h4></a>
+            <div class="newsheader-right font-s ">
+              <a href="#none" class="margin-r blue border none">네이버뉴스</a>
+              <a href="#none" class="margin-r black border none">연예</a>
+              <a href="#none" class="margin-r black border none ">스포츠</a>
+              <a href="#none" class="black border none">경제</a>
             </div>
           </div>
           <div class="newsmiddle">
@@ -434,7 +429,7 @@
               </div>
               <a href="#none" class="btn-arrow-left">
                 <div>
-                  <v-icon> mdi-chevron-left</v-icon>
+                  <v-icon Z> mdi-chevron-left</v-icon>
                 </div>
               </a>
 
@@ -597,15 +592,15 @@
           <h4 class="grey">네이버를 더 안전하고 편리하게 이용하세요</h4>
           <a href="#none" class="btn-login margin10 border none">NAVER LOGIN</a>
           <div class="login-bottom">
-            <div class="left">
+            <div class="left font-s ">
               <a href="#none" class="margin-r  a-line">
-                <h4><v-icon x-small>mdi-lock</v-icon>아이디</h4></a
+                <v-icon small>mdi-lock</v-icon>아이디</a
               >
-              <a href="#none" class=" a-line"> <h4>비밀번호 찾기</h4></a>
+              <a href="#none" class=" a-line"> 비밀번호 찾기</a>
             </div>
             <div class="left">
               <a href="#none" class=" a-line">
-                <h4><v-icon x-small>mdi-account-outline</v-icon>회원가입</h4></a
+                <h4><v-icon small>mdi-account-outline</v-icon>회원가입</h4></a
               >
             </div>
           </div>

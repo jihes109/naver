@@ -1,3 +1,8 @@
+html {
+  /* font-family: system-ui !important; */
+  font-family: Arial;
+}
+
 :root {
   --primary: #19ce60;
   --black: #000000;
@@ -187,6 +192,7 @@ section {
 h3 {
   font-size: 16px;
 }
+.font-s,
 h4 {
   font-size: 13px;
 }
@@ -259,11 +265,16 @@ h4 {
   float: right;
 }
 .group-nav-right > a {
+  /* display: inline-block;
+  height: 30px;
+  line-height: 30px; */
+  /* display: flex; */
+  /* align-items: center;  */
+
   font-size: 13px;
 }
 .list-nav {
   float: left;
-  line-height: 30px;
   color: #000;
 }
 .line {
@@ -283,6 +294,17 @@ h4 {
 }
 .nav-item:last-child {
   margin-right: 0;
+}
+.nav-item a {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+}
+
+.test-span {
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
 }
 ol,
 ul {
@@ -333,9 +355,9 @@ ul {
 .login-bottom {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .login-bottom > .left {
-  display: flex;
 }
 
 .newsheader h4 {
@@ -395,6 +417,8 @@ a:visited {
 .themecast-right,
 .themerow {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .wrap {
   overflow: hidden;
@@ -484,7 +508,7 @@ a:visited {
 }
 .loginbox,
 .shoppingheader {
-  padding: 20px;
+  padding: 16px;
   background-color: var(--lightgrey);
   border: 1px solid var(--grey);
 }
